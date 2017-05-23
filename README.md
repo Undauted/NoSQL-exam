@@ -4,7 +4,7 @@
 
 ## Prezentacja
 
-Opis agregacji i wyniki w [PDF]()
+Opis agregacji i wyniki w [PDF](https://github.com/Undauted/NoSQL-exam/blob/master/Aggregation.pdf)
 
 ## Dane
 
