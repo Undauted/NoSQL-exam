@@ -71,3 +71,34 @@ Imported 364 documents
   "Team_Name": "Abilene Chr"
 }
 ```
+
+##Agregacje
+
+1. Ilość fauli na przestrzeni 2003-2017
+2. Wpływ boiska na wygraną
+3. Zespoły które wygrywały ligę na przestrzeni lat 2003-2017
+4. Najlepsza średnia rzutów za dwa i trzy 5 zespołów w lidze
+5. Suma punktów wygranych i przegranych meczów na przestrzeni lat 2003-2017
+
+##Zapytania z użyciem Pythona
+
+Aby wykorzystać mongo w Pythonie należy wykorzystać pakiet PyMongo.
+
+```
+import pymongo
+user = pymongo.MongoClient()
+db = user.basketball
+```
+
+Nasze zapytanie w pyhonie wygląda tak:
+```
+db.results.aggregate([
+{
+	$facet:{
+		"Home":[stepHome1,stepHome2],
+		"Away":[stepAway1,stepAway2],
+		"Neutral":[stepNeutral1,stepNeutral2]
+	}
+}
+]).pretty()
+```
