@@ -2,6 +2,10 @@
 
 ### Piotr Kacprowicz, Damian Centek, Daniel Banasiak
 
+## Prezentacja
+
+Opis agregacji i wyniki w [PDF]()
+
 ## Dane
 
 Zbiór danych: [College Basketball Events](https://www.kaggle.com/c/march-machine-learning-mania-2017/data)
