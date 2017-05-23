@@ -6,6 +6,8 @@
 
 Zbiór danych: [College Basketball Events](https://www.kaggle.com/c/march-machine-learning-mania-2017/data)
 
+Plik RegularSeasonDetailedResults.csv
+
 <h6>Liczba rekordów</h6>
 
 ```
@@ -50,5 +52,22 @@ Imported 76636 documents
   "Lstl": 9,
   "Lblk": 2,
   "Lpf": 20
-  }
+}
+```
+
+Plik Teams.csv
+
+<h6>Liczba rekordów</h6>
+
+```
+Imported 364 documents
+```   
+
+<h6>Przykładowy rekord</h6>
+
+```
+{
+  "Team_Id": 1101,
+  "Team_Name": "Abilene Chr"
+}
 ```
