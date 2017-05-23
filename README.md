@@ -86,7 +86,7 @@ Imported 364 documents
 
 ## Zapytania z użyciem Pythona
 
-Aby wykorzystać mongo w Pythonie należy wykorzystać pakiet PyMongo.
+Aby wykorzystać mongo w Pythonie należy zainslatować pakiet PyMongo.
 
 ```
 import pymongo
