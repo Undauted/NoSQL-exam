@@ -72,7 +72,7 @@ Imported 364 documents
 }
 ```
 
-##Agregacje
+## Agregacje
 
 1. Ilość fauli na przestrzeni 2003-2017
 2. Wpływ boiska na wygraną
@@ -80,7 +80,7 @@ Imported 364 documents
 4. Najlepsza średnia rzutów za dwa i trzy 5 zespołów w lidze
 5. Suma punktów wygranych i przegranych meczów na przestrzeni lat 2003-2017
 
-##Zapytania z użyciem Pythona
+## Zapytania z użyciem Pythona
 
 Aby wykorzystać mongo w Pythonie należy wykorzystać pakiet PyMongo.
 
@@ -102,3 +102,5 @@ db.results.aggregate([
 }
 ]).pretty()
 ```
+
+
