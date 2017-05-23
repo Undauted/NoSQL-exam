@@ -94,7 +94,7 @@ user = pymongo.MongoClient()
 db = user.basketball
 ```
 
-Nasze zapytanie w pyhonie wygląda tak:
+Nasze zapytanie w Pyhonie wygląda tak:
 ```
 db.results.aggregate([
 {
